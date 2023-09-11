@@ -15,7 +15,6 @@ targets = ["thumbv6m-none-eabi"]
 [dependencies]
 cortex-m = "0.7.3"
 vcell = "0.1.3"
-interrupts = { path = "../interrupts" }
 
 [dependencies.cortex-m-rt]
 optional = true
